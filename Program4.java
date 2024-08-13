@@ -36,6 +36,11 @@ class Myclass{
 
 //Paste console output below:
 /*
-
+enter first number: 433
+enter second mumber: 232
+enter third mumber: 112
+enter fourth mumber: 344
+The sum is 1121
+The average is 280.25
 
 */
