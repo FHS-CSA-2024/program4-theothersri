@@ -1,6 +1,37 @@
 //Youre on your own!
 //Jk ask for help if you need it (but also look at previous programs!!)
+import java.util.Scanner;
+class Myclass{
+    public static void main(String[]args){
+        Scanner myObj = new Scanner(System.in);
+        //inputs
+        System.out.print("enter first number: ");
+        Integer n1=myObj.nextInt();
+        
+        System.out.print("enter second mumber: ");
+        Integer n2=myObj.nextInt();
+        
+        System.out.print("enter third mumber: ");
+        Integer n3=myObj.nextInt();
+        
+        System.out.print("enter fourth mumber: ");
+        Integer n4=myObj.nextInt();
+        
+        //sum
+        int sum=0;
+        sum = n1+n2+n3+n4;
+        
+        double doubleSum = (double) sum;  //convert sum to a double
+        double avg=0;
+        avg = doubleSum/4;
+        
+        System.out.println("The sum is "+sum);
+        System.out.print("The average is "+avg);
 
+        
+        
+    }
+}
 
 
 //Paste console output below:
