@@ -6,16 +6,16 @@ class Myclass{
         Scanner myObj = new Scanner(System.in);
         //inputs
         System.out.print("enter first number: ");
-        Integer n1=myObj.nextInt();
+        int n1=myObj.nextInt();
         
         System.out.print("enter second mumber: ");
-        Integer n2=myObj.nextInt();
+        int n2=myObj.nextInt();
         
         System.out.print("enter third mumber: ");
-        Integer n3=myObj.nextInt();
+        int n3=myObj.nextInt();
         
         System.out.print("enter fourth mumber: ");
-        Integer n4=myObj.nextInt();
+        int n4=myObj.nextInt();
         
         //sum
         int sum=0;
